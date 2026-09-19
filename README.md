@@ -6,6 +6,12 @@
 [![macOS 14+](https://img.shields.io/badge/macOS-14%20Sonoma%20%7C%2015%20Sequoia-blue)](#requirements)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+<p align="center">
+  <img src="docs/images/system-settings-storage-messages-190gb.png" width="480" alt="macOS System Settings › General › Storage showing Messages using 190 GB, next to Apple's Store in iCloud and Optimize Storage recommendations that do nothing for Messages">
+  <br>
+  <em>Sound familiar? System Settings › Storage on the Mac this was built on: Messages, 190 GB. Apple's recommendations on that screen don't touch it.</em>
+</p>
+
 Is **Messages taking up 50, 100, 200 GB of storage on your Mac**? System Settings › Storage shows "Messages" as one of the biggest items, but there is no "Optimize Mac Storage" switch for Messages the way there is for Photos. Every photo and video anyone ever sent you is stored twice: once in iCloud (Messages in iCloud) and once under `~/Library/Messages/Attachments`, forever.
 
 Messages Storage Saver is the missing switch. It removes **only the local copy** of attachments that Messages has already uploaded to iCloud, matching a rule you choose ("larger than 100 MB and older than 2 years"), and shows you exactly how much each rule would free before you click. Messages keeps working: an optimized attachment shows a download button and comes back from iCloud when you open it. Nothing is ever deleted from iCloud, from your other devices, or from a conversation.
