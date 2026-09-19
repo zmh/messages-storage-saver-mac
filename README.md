@@ -1,6 +1,6 @@
 # Messages Storage Saver for Mac
 
-**Free up the space iMessage attachments take on your Mac, without deleting anything from iCloud, your iPhone, or your conversations.**
+**Like Optimize Storage for Photos, but for Messages.** Free up the space iMessage attachments take on your Mac, without deleting anything from iCloud, your iPhone, or your conversations.
 
 [![Download for macOS](https://img.shields.io/github/v/release/zmh/messages-storage-saver-mac?label=Download%20for%20macOS&style=for-the-badge)](https://github.com/zmh/messages-storage-saver-mac/releases/latest)
 [![macOS 14+](https://img.shields.io/badge/macOS-14%20Sonoma%20%7C%2015%20Sequoia-blue)](#requirements)
