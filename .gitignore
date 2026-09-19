@@ -1,0 +1,12 @@
+.build/
+DerivedData/
+*.xcodeproj
+*.xcworkspace
+dist/
+*.pkg
+*.dmg
+*.app
+.DS_Store
+Tests/Fixtures/store/
+Packaging/AppIcon.icns
+scripts/signing.local.sh

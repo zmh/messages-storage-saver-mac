@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="2">
+    <title>Messages Storage Saver</title>
+    <options customize="never" require-scripts="false" hostArchitectures="arm64,x86_64"/>
+    <domains enable_localSystem="true"/>
+    <welcome file="welcome.txt" mime-type="text/plain"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="app"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="app" visible="false">
+        <pkg-ref id="__BUNDLE_ID__"/>
+    </choice>
+    <pkg-ref id="__BUNDLE_ID__" version="__VERSION__" onConclusion="none">component.pkg</pkg-ref>
+</installer-gui-script>

@@ -1,0 +1,3 @@
+Messages Storage Saver keeps recent iMessage attachments on this Mac and lets older ones live only in iCloud (Messages in iCloud). It never deletes anything from iCloud or your other devices.
+
+After installing, launch it from Applications. It asks for Full Disk Access (to read the Messages database) and lets you choose an archive folder. Nothing is removed until you click Optimize Now and confirm a preview.
