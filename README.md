@@ -19,7 +19,7 @@ Messages Storage Saver is the missing switch. It removes **only the local copy**
 ## Download
 
 1. **[Download the latest release](https://github.com/zmh/messages-storage-saver-mac/releases/latest)** (`MessagesStorageSaver-x.y.z.dmg`), open it and drag **Messages Storage Saver** to Applications.
-2. Launch it from Spotlight. If macOS says the app "cannot be opened because Apple cannot check it", right-click the app › **Open** › Open (the release is signed with a Developer ID; notarization status is noted on each release).
+2. Launch it from Spotlight. Releases are signed with a Developer ID and notarized by Apple, so it opens like any other app.
 3. Grant **Full Disk Access** when the window asks (System Settings › Privacy & Security › Full Disk Access › add Messages Storage Saver), then click **Relaunch app**. This is required to read the Messages database; it is the same permission Terminal needs to see `~/Library/Messages`.
 4. Pick a rule, click **Optimize Now…**, read the preview, confirm. Then quit and reopen Messages so it shows download buttons instead of stale thumbnails.
 
